@@ -1,0 +1,46 @@
+.class1 {
+  background: #ff5900;
+}
+
+.class2 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.class2::before {
+  animation: toggleWidth 10s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+@keyframes toggleWidth {
+  0% {
+    width: 0;
+    background-color: #ff4a06;
+  }
+  100% {
+    width: 100%;
+    background-color: #ff4a06;
+  }
+}
+.class3 {
+  background: #ff5900;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

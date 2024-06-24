@@ -1,0 +1,31 @@
+{
+  "name": "birla-paints",
+  "version": "1.0.13",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "nodeCheck": "node -v | grep 'v18' || (echo 'Error: Node.js version must be v18' && exit 1)",
+    "build": "npm run nodeCheck && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "next": "14.0.4",
+    "prisma": "^5.14.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.33.2",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

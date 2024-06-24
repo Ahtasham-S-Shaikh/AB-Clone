@@ -1,0 +1,43 @@
+
+
+@media screen and (min-width: 1200px) {
+  .heightForVideo {
+    min-height: 600px !important;
+    max-height: 750px !important;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .heightForVideo {
+    min-height: 890px !important;
+    max-height: 950px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heightForVideo {
+    min-height: 890px !important;
+  }
+}
+
+@media screen and (min-width: 600px)  and (max-width:767px){
+ 
+  .heightForVideoMobile
+  {
+    min-height: 600px  !important;
+  
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  .heightForVideoMobile
+  {
+    min-height: 850px  !important;
+  
+  }
+  
+}
